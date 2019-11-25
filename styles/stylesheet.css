@@ -17,10 +17,12 @@ h1 {
   margin: 0;
   width: 100%;
 }
-.header-img {
-  width:
-}
 
+.map {
+  padding: 1em;
+  border: none;
+  margin: .5em;
+}
 nav ul {
   list-style: none;
   /*color: #ffffff;*/
@@ -58,4 +60,10 @@ nav::after {
 .grid-item-1, .grid-item-2, .grid-item-3 {
   width: 33%;
 
+}
+footer img {
+  width: 100%;
+}
+.logo footer img {
+  width: 33%;
 }
