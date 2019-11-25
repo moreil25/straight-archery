@@ -18,11 +18,10 @@ h1 {
   width: 100%;
 }
 
-.map {
-  padding: 1em;
-  border: none;
-  margin: .5em;
+.header {
+  border: 1px black solid;
 }
+
 nav ul {
   list-style: none;
   /*color: #ffffff;*/
@@ -48,6 +47,15 @@ a {
   text-decoration: none;
 }
 
+.container-box {
+  box-sizing: content-box;
+  padding: 1em;
+  border: 1px black solid;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .col {
   float: left;
   padding: .5em;
@@ -59,7 +67,12 @@ nav::after {
 
 .grid-item-1, .grid-item-2, .grid-item-3 {
   width: 33%;
+  background-color: #1b447f;
+  color: #ffffff;
+}
 
+.instructor {
+  color: #ecb722;
 }
 footer img {
   width: 100%;
