@@ -14,7 +14,7 @@ h1 {
   background-color: #03a3df;
   padding: .5em;
   border: none;
-  margin: 0;
+  margin: .5em;
 }
 
 header {
@@ -23,18 +23,30 @@ header {
 
 .flex-container {
   flex-flow: row wrap;
-
+  justify-content: center;
+  align-items: center;
 }
 
 .header-img {
+  padding: 1em .25em .25em .5em;
+  border: none;
   width: 20%;
+  height: 40%;
+  float: left;
 }
+/*figure out proper image size*/
 
 nav ul {
   list-style: none;
   color: #ffffff;
   float: right;
-  position:relative;
+  position: relative;
+  padding: .25em;
+  border: none;
+  margin: .25em;
+  width: 33%;
+  font-size: .88em;
+  font-weight: 700;
 }
 nav li {
   display: inline;
@@ -54,29 +66,10 @@ blockquote {
   color: #03a3df;
 }
 
-/*a:link, a:visited {
-  color: #264E36;
-  padding: .5em;
-  border: none;
-  margin: .5em;
-  text-align: center;
-  text-decoration: none;
-}*/
-
-/*a:visited {
-  color: #264E36;
-}*/
-
-/*a:hover {
-  color: #577284;
-}*/
-
-/*a:active {
-  color: #CE5B78;
-} */
 
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 a:hover {
@@ -85,6 +78,7 @@ a:hover {
 a:visited {
   color: #1b447f;
 }
+
 .container-box {
   box-sizing: content-box;
   padding: 1em;
@@ -92,7 +86,6 @@ a:visited {
   align-items: center;
   justify-content: center;
 }
-
 
 .col {
   float: left;
@@ -126,6 +119,9 @@ footer p {
   color: #ffffff;
 }
 .white {
+  padding: .25em;
+  border: none;
+  width: 20%;
   position: relative;
   z-index: 1;
 }
