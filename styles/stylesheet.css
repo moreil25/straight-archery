@@ -113,10 +113,13 @@ footer {
   background-size: cover;
   position: relative;
   z-index; -1;
+  margin: .5em;
 }
 
 footer p {
   color: #ffffff;
+  font-size: .75em;
+  width: 50%;
 }
 .white {
   padding: .25em;
@@ -124,4 +127,10 @@ footer p {
   width: 20%;
   position: relative;
   z-index: 1;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter {
+  font-size: 1em;
+  padding: .25em;
+  margin: .25em;
 }
