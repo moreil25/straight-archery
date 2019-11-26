@@ -12,22 +12,33 @@ h1 {
   font-size: 2.5em;
   color: #ffffff;
   background-color: #03a3df;
-  padding: 1em;
+  padding: .5em;
   border: none;
   margin: 0;
-  width: 100%;
 }
 
-.header {
-  border: 1px black solid;
+header {
+  background-color: #03a3df;
+}
+
+.flex-container {
+  flex-flow: row wrap;
+
+}
+
+.header-img {
+  width: 20%;
 }
 
 nav ul {
   list-style: none;
-  /*color: #ffffff;*/
+  color: #ffffff;
   float: right;
   position:relative;
-  display:inline-block;
+}
+nav li {
+  display: inline;
+  color: #ffffff;
 }
 
 h2 {
@@ -43,10 +54,37 @@ blockquote {
   color: #03a3df;
 }
 
+/*a:link, a:visited {
+  color: #264E36;
+  padding: .5em;
+  border: none;
+  margin: .5em;
+  text-align: center;
+  text-decoration: none;
+}*/
+
+/*a:visited {
+  color: #264E36;
+}*/
+
+/*a:hover {
+  color: #577284;
+}*/
+
+/*a:active {
+  color: #CE5B78;
+} */
+
 a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ecb722;
+}
+a:visited {
+  color: #1b447f;
+}
 .container-box {
   box-sizing: content-box;
   padding: 1em;
@@ -74,9 +112,20 @@ nav::after {
 .instructor {
   color: #ecb722;
 }
-footer img {
-  width: 100%;
+
+footer {
+  background-image: url("../assets/footerImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index; -1;
 }
-.logo footer img {
-  width: 33%;
+
+footer p {
+  color: #ffffff;
+}
+.white {
+  position: relative;
+  z-index: 1;
 }
