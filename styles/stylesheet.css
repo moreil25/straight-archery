@@ -19,6 +19,9 @@ h1 {
 
 header {
   background-color: #03a3df;
+  padding: .5em;
+  border: none;
+  margin: .5em;
 }
 
 .flex-container {
@@ -28,10 +31,9 @@ header {
 }
 
 .header-img {
-  padding: 1em .25em .25em .5em;
+  padding: 0.25em .25em .5em;
   border: none;
-  width: 20%;
-  height: 40%;
+  max-width: 20%;
   float: left;
 }
 /*figure out proper image size*/
@@ -66,7 +68,6 @@ blockquote {
   color: #03a3df;
 }
 
-
 a {
   text-decoration: none;
   color: #ffffff;
@@ -79,12 +80,15 @@ a:visited {
   color: #1b447f;
 }
 
-.container-box {
-  box-sizing: content-box;
-  padding: 1em;
-  border: 1px black solid;
-  align-items: center;
+.flex-container-2 {
+  flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+.flex-item-1, .flex-item-2 {
+  width: 45%;
 }
 
 .col {
@@ -120,9 +124,11 @@ footer p {
   color: #ffffff;
   font-size: .75em;
   width: 50%;
+  padding: .5em;
+  margin:. 5em;
 }
 .white {
-  padding: .25em;
+  padding: .5em;
   border: none;
   width: 20%;
   position: relative;
