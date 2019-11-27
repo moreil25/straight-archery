@@ -67,6 +67,7 @@ blockquote {
   font-size: .88em;
   font-weight: 700;
 }
+
 .caption {
   font-size: .88em;
   color: #ecb722;
@@ -92,21 +93,48 @@ a:visited {
   color: #1b447f;
 }
 
-/*.flex-container-2 {
+/*not sure if the google map link is preventing me from styling this as a flexbox*/
+.flex-container {
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1em;
   margin: 1em;
-}*/
+}
 
-.flex-item-1, .flex-item-2 {
-  width: 45%;
+.flex-map {
+  width: 33%;
+}
+
+.flex-cal {
+  width: 33%;
+}
+
+.cal {
+  width: 98%;
+  padding: .5em;
+  margin: .5em;
+}
+
+.video {
+  display: block;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p.vid-cap{
+  background-color: #1b447f;
+  padding: 1em;
+  border: 2px solid #ecb722;
+  color: #ffffff;
+  font-size: .88em;
+  text-align: center;
+}
 }
 .grid-container {
   display: grid;
   grid-gap: 1em 1em;
-  border: 4px red solid;
 }
 
 nav::after {
@@ -132,19 +160,21 @@ nav::after {
 }
 
 .grid-item-3 {
-grid-column: 3;
-grid-row: 2 / 3;
-background-color: #1b447f;
-color: #ffffff;
-padding: .5em;
-margin: 1em;
+  grid-column: 3;
+  grid-row: 2 / 3;
+  background-color: #1b447f;
+  color: #ffffff;
+  padding: .5em;
+  margin: 1em;
 }
 
 .instructor {
   color: #ecb722;
 }
+
 section::after {
   clear: both;
+
 }
 footer {
   background-image: url("../assets/footerImage.jpg");
