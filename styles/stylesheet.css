@@ -112,7 +112,6 @@ a:visited {
 
 .video {
   display: block;
-  padding: auto;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -125,7 +124,7 @@ p.vid-cap{
   font-size: .88em;
   text-align: center;
 }
-}
+
 .grid-container {
   display: grid;
   grid-gap: 1em 1em;
@@ -176,7 +175,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index; -1;
+  z-index: -1;
   margin: .5em;
 }
 
@@ -185,7 +184,7 @@ footer p {
   font-size: .75em;
   width: 50%;
   padding: .5em;
-  margin:. 5em;
+  margin: 5em;
 }
 .white {
   padding: .5em;
