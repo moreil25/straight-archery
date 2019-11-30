@@ -93,8 +93,8 @@ a:visited {
   color: #1b447f;
 }
 
-/*not sure if the google map link is preventing me from styling this as a flexbox*/
 .flex-container {
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
@@ -103,17 +103,11 @@ a:visited {
 }
 
 .flex-map {
-  width: 33%;
+  width: 45%;
 }
 
 .flex-cal {
-  width: 33%;
-}
-
-.cal {
-  width: 98%;
-  padding: .5em;
-  margin: .5em;
+  width: 45%;
 }
 
 .video {
