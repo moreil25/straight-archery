@@ -11,14 +11,14 @@ body {
 h1 {
   font-size: 2.5em;
   color: #ffffff;
-  background-color: #03a3df;
+  background-color: #037EAB;
   padding: .5em;
   border: none;
   margin: .5em;
 }
 
 header {
-  background-color: #03a3df;
+  background-color: #037EAB;
   padding: .5em;
   border: none;
   margin: .5em;
@@ -59,7 +59,7 @@ h3 {
 
 blockquote {
   font-size: 1.88em;
-  color: #03a3df;
+  color: #03A3DF;
   width: 50%;
 }
 
